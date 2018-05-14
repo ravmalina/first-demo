@@ -1,0 +1,301 @@
+Last login: Fri May 11 08:50:51 on console
+hedgehoglab-5s-MacBook-Air:~ web-services$ mkdir project-new
+hedgehoglab-5s-MacBook-Air:~ web-services$ cd project-new/
+hedgehoglab-5s-MacBook-Air:project-new web-services$ ls
+hedgehoglab-5s-MacBook-Air:project-new web-services$ cd//
+-bash: cd//: No such file or directory
+hedgehoglab-5s-MacBook-Air:project-new web-services$ cd..//
+-bash: cd..//: No such file or directory
+hedgehoglab-5s-MacBook-Air:project-new web-services$ cd.
+-bash: cd.: command not found
+hedgehoglab-5s-MacBook-Air:project-new web-services$ cd./
+-bash: cd./: No such file or directory
+hedgehoglab-5s-MacBook-Air:project-new web-services$ .
+-bash: .: filename argument required
+.: usage: . filename [arguments]
+hedgehoglab-5s-MacBook-Air:project-new web-services$ //
+-bash: //: is a directory
+hedgehoglab-5s-MacBook-Air:project-new web-services$ /
+-bash: /: is a directory
+hedgehoglab-5s-MacBook-Air:project-new web-services$ cd..
+-bash: cd..: command not found
+hedgehoglab-5s-MacBook-Air:project-new web-services$ cd/
+-bash: cd/: No such file or directory
+hedgehoglab-5s-MacBook-Air:project-new web-services$ cd/
+-bash: cd/: No such file or directory
+hedgehoglab-5s-MacBook-Air:project-new web-services$ cd ..
+hedgehoglab-5s-MacBook-Air:~ web-services$ ls
+Applications	Documents	Library		Music		Public
+Desktop		Downloads	Movies		Pictures	project-new
+hedgehoglab-5s-MacBook-Air:~ web-services$ cd D
+Desktop/   Documents/ Downloads/ 
+hedgehoglab-5s-MacBook-Air:~ web-services$ cd Desktop/
+hedgehoglab-5s-MacBook-Air:Desktop web-services$ mkdir new-project
+hedgehoglab-5s-MacBook-Air:Desktop web-services$ cd new-project/
+hedgehoglab-5s-MacBook-Air:new-project web-services$ touch t1,t2,t3
+hedgehoglab-5s-MacBook-Air:new-project web-services$ ls
+t1,t2,t3
+hedgehoglab-5s-MacBook-Air:new-project web-services$ rm -t1
+rm: illegal option -- t
+usage: rm [-f | -i] [-dPRrvW] file ...
+       unlink file
+hedgehoglab-5s-MacBook-Air:new-project web-services$ rm t1
+rm: t1: No such file or directory
+hedgehoglab-5s-MacBook-Air:new-project web-services$ rm-- t1
+-bash: rm--: command not found
+hedgehoglab-5s-MacBook-Air:new-project web-services$ rm -t1
+rm: illegal option -- t
+usage: rm [-f | -i] [-dPRrvW] file ...
+       unlink file
+hedgehoglab-5s-MacBook-Air:new-project web-services$ rm t1
+rm: t1: No such file or directory
+hedgehoglab-5s-MacBook-Air:new-project web-services$ rm t1
+rm: t1: No such file or directory
+hedgehoglab-5s-MacBook-Air:new-project web-services$ git init
+Initialized empty Git repository in /Users/web-services/Desktop/new-project/.git/
+hedgehoglab-5s-MacBook-Air:new-project web-services$ gitinstall
+-bash: gitinstall: command not found
+hedgehoglab-5s-MacBook-Air:new-project web-services$ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+==> This script will install:
+/usr/local/bin/brew
+/usr/local/share/doc/homebrew
+/usr/local/share/man/man1/brew.1
+/usr/local/share/zsh/site-functions/_brew
+/usr/local/etc/bash_completion.d/brew
+/usr/local/Homebrew
+==> The following existing directories will be made group writable:
+/usr/local/bin/brew
+/usr/local/etc/bash_completion.d
+/usr/local/lib/pkgconfig
+/usr/local/share/doc
+/usr/local/share/info
+/usr/local/share/man
+/usr/local/share/man/man1
+/usr/local/share/man/man3
+==> The following existing directories will have their owner set to web-services:
+/usr/local/bin/brew
+/usr/local/etc/bash_completion.d
+/usr/local/lib/pkgconfig
+/usr/local/share/doc
+/usr/local/share/info
+/usr/local/share/man
+/usr/local/share/man/man1
+/usr/local/share/man/man3
+
+Press RETURN to continue or any other key to abort
+==> /usr/bin/sudo /bin/chmod u+rwx /usr/local/bin/brew /usr/local/etc/bash_completion.d /usr/local/lib/pkgconfig /usr/local/share/doc /usr/local/share/info /usr/local/share/man /usr/local/share/man/man1 /usr/local/share/man/man3
+Password:
+Sorry, try again.
+Password:
+Sorry, try again.
+Password:
+==> /usr/bin/sudo /bin/chmod g+rwx /usr/local/bin/brew /usr/local/etc/bash_completion.d /usr/local/lib/pkgconfig /usr/local/share/doc /usr/local/share/info /usr/local/share/man /usr/local/share/man/man1 /usr/local/share/man/man3
+==> /usr/bin/sudo /usr/sbin/chown web-services /usr/local/bin/brew /usr/local/etc/bash_completion.d /usr/local/lib/pkgconfig /usr/local/share/doc /usr/local/share/info /usr/local/share/man /usr/local/share/man/man1 /usr/local/share/man/man3
+==> /usr/bin/sudo /bin/mkdir -p /Users/web-services/Library/Caches/Homebrew
+==> /usr/bin/sudo /bin/chmod g+rwx /Users/web-services/Library/Caches/Homebrew
+==> /usr/bin/sudo /usr/sbin/chown web-services /Users/web-services/Library/Caches/Homebrew
+==> /usr/bin/sudo /bin/mkdir -p /Library/Caches/Homebrew
+==> /usr/bin/sudo /bin/chmod g+rwx /Library/Caches/Homebrew
+==> /usr/bin/sudo /usr/sbin/chown web-services /Library/Caches/Homebrew
+==> Downloading and installing Homebrew...
+error: could not lock config file /usr/local/Homebrew/.git/config: Permission denied
+fatal: could not set 'core.repositoryformatversion' to '0'
+Failed during: git init -q
+hedgehoglab-5s-MacBook-Air:new-project web-services$ cd..
+-bash: cd..: command not found
+hedgehoglab-5s-MacBook-Air:new-project web-services$ cd//
+-bash: cd//: No such file or directory
+hedgehoglab-5s-MacBook-Air:new-project web-services$ cd\
+> cd\\
+-bash: cdcd\: command not found
+hedgehoglab-5s-MacBook-Air:new-project web-services$ cd ..
+hedgehoglab-5s-MacBook-Air:Desktop web-services$ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+==> This script will install:
+/usr/local/bin/brew
+/usr/local/share/doc/homebrew
+/usr/local/share/man/man1/brew.1
+/usr/local/share/zsh/site-functions/_brew
+/usr/local/etc/bash_completion.d/brew
+/usr/local/Homebrew
+
+Press RETURN to continue or any other key to abort
+==> Downloading and installing Homebrew...
+error: could not lock config file /usr/local/Homebrew/.git/config: Permission denied
+fatal: could not set 'core.repositoryformatversion' to '0'
+Failed during: git init -q
+hedgehoglab-5s-MacBook-Air:Desktop web-services$ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+==> This script will install:
+/usr/local/bin/brew
+/usr/local/share/doc/homebrew
+/usr/local/share/man/man1/brew.1
+/usr/local/share/zsh/site-functions/_brew
+/usr/local/etc/bash_completion.d/brew
+/usr/local/Homebrew
+
+Press RETURN to continue or any other key to abort
+==> Downloading and installing Homebrew...
+error: could not lock config file /usr/local/Homebrew/.git/config: Permission denied
+fatal: could not set 'core.repositoryformatversion' to '0'
+Failed during: git init -q
+hedgehoglab-5s-MacBook-Air:Desktop web-services$ git init-q
+git: 'init-q' is not a git command. See 'git --help'.
+
+The most similar command is
+	init-db
+hedgehoglab-5s-MacBook-Air:Desktop web-services$ git ini$ brew install wget
+git: 'ini$' is not a git command. See 'git --help'.
+
+The most similar command is
+	init
+hedgehoglab-5s-MacBook-Air:Desktop web-services$ $ brew install wget
+-bash: $: command not found
+hedgehoglab-5s-MacBook-Air:Desktop web-services$ $ brew install wget
+-bash: $: command not found
+hedgehoglab-5s-MacBook-Air:Desktop web-services$ $ brew install wget
+-bash: $: command not found
+hedgehoglab-5s-MacBook-Air:Desktop web-services$ git --version
+git version 2.14.3 (Apple Git-98)
+hedgehoglab-5s-MacBook-Air:Desktop web-services$ sudo dnf install git-all
+Password:
+Sorry, try again.
+Password:
+sudo: dnf: command not found
+hedgehoglab-5s-MacBook-Air:Desktop web-services$ sudo  install git-all
+usage: install [-bCcpSsv] [-B suffix] [-f flags] [-g group] [-m mode]
+               [-o owner] file1 file2
+       install [-bCcpSsv] [-B suffix] [-f flags] [-g group] [-m mode]
+               [-o owner] file1 ... fileN directory
+       install -d [-v] [-g group] [-m mode] [-o owner] directory ...
+hedgehoglab-5s-MacBook-Air:Desktop web-services$ sudo  $ brew install wget
+sudo: $: command not found
+hedgehoglab-5s-MacBook-Air:Desktop web-services$ sudo brew install wget
+Error: Running Homebrew as root is extremely dangerous and no longer supported.
+As Homebrew does not drop privileges on installation you would be giving all
+build scripts full access to your system.
+hedgehoglab-5s-MacBook-Air:Desktop web-services$ brew install wget
+Error: Can't create update lock in /usr/local/var/homebrew/locks!
+Fix permissions by running:
+  sudo chown -R $(whoami) /usr/local/var/homebrew
+Error: Permission denied @ rb_sysopen - /usr/local/var/homebrew/locks/wget.formula.lock
+hedgehoglab-5s-MacBook-Air:Desktop web-services$ sudo apt-get install git
+Password:
+sudo: apt-get: command not found
+hedgehoglab-5s-MacBook-Air:Desktop web-services$ sudo apt -get install git
+Unable to locate an executable at "/Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home/bin/apt" (-1)
+hedgehoglab-5s-MacBook-Air:Desktop web-services$ git init
+Initialized empty Git repository in /Users/web-services/Desktop/.git/
+hedgehoglab-5s-MacBook-Air:Desktop web-services$ git add README.md
+fatal: pathspec 'README.md' did not match any files
+hedgehoglab-5s-MacBook-Air:Desktop web-services$ git remote add origin https://github.com/ravmalina/dev-love.git
+hedgehoglab-5s-MacBook-Air:Desktop web-services$ git ststus
+git: 'ststus' is not a git command. See 'git --help'.
+
+The most similar command is
+	status
+hedgehoglab-5s-MacBook-Air:Desktop web-services$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	.DS_Store
+	.localized
+	new-project/
+
+nothing added to commit but untracked files present (use "git add" to track)
+hedgehoglab-5s-MacBook-Air:Desktop web-services$ git push -u origin master
+error: src refspec master does not match any.
+error: failed to push some refs to 'https://github.com/ravmalina/dev-love.git'
+hedgehoglab-5s-MacBook-Air:Desktop web-services$ cd new-project/
+hedgehoglab-5s-MacBook-Air:new-project web-services$ hit init
+-bash: hit: command not found
+hedgehoglab-5s-MacBook-Air:new-project web-services$ git init
+Reinitialized existing Git repository in /Users/web-services/Desktop/new-project/.git/
+hedgehoglab-5s-MacBook-Air:new-project web-services$ cd ..
+hedgehoglab-5s-MacBook-Air:Desktop web-services$ 
+  [Restored May 14, 2018, 8:51:24 AM]
+Last login: Mon May 14 08:51:20 on console
+hedgehoglab-5s-MacBook-Air:Desktop web-services$ git clone https://github.com/ravmalina/first-demo.git
+Cloning into 'first-demo'...
+remote: Counting objects: 3, done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), done.
+hedgehoglab-5s-MacBook-Air:Desktop web-services$ cd first-demo/
+hedgehoglab-5s-MacBook-Air:first-demo web-services$ la
+-bash: la: command not found
+hedgehoglab-5s-MacBook-Air:first-demo web-services$ ls
+README.md
+hedgehoglab-5s-MacBook-Air:first-demo web-services$ git pll
+git: 'pll' is not a git command. See 'git --help'.
+
+The most similar command is
+	pull
+hedgehoglab-5s-MacBook-Air:first-demo web-services$ git pull
+Already up-to-date.
+hedgehoglab-5s-MacBook-Air:first-demo web-services$ nano cacl.py
+
+  GNU nano 2.0.6                                                        File: cacl.py                                                                                                             Modified  
+
+def add(x,y):
+Pass
+def sub(x,y):
+Pass
+def mul(x,y):
+Pass
+def div(x,y):
+Pass
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+^G Get Help                       ^O WriteOut                       ^R Read File                      ^Y Prev Page                      ^K Cut Text                       ^C Cur Pos
+^X Exit                           ^J Justify                        ^W Where Is                       ^V Next Page                      ^U UnCut Text                     ^T To Spell
